@@ -1,0 +1,453 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: norms-bold;
+    src: url(font/TTNorms-Bold.woff2);
+}
+@font-face {
+    font-family: norms-medium;
+    src: url(font/TTNorms-Medium\ \(1\).woff2);
+}
+@font-face {
+    font-family: norm-regular;
+    src: url(font/TTNorms-Regular.woff2);
+}
+
+    
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 16px;
+}
+.door{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+    /* margin-top: 16px; */
+    
+}
+.door svg{
+    height: 40px;
+    fill: white;
+    box-sizing: border-box;
+    
+}
+header{
+    background: url("https://img.cdn4dd.com/cdn-cgi/image/fit=cover,format=auto,quality=60/https://cdn.doordash.com/managed/consumer/seo/home/hero_v3/hero_desktop.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* object-fit: cover; */
+    height: 650px;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 1;
+    justify-content: center;
+}
+.button{
+    display: flex;
+    /* box-sizing: border-box; */
+    transform: translateX(-9px);
+    gap: 10px;
+}
+.button .in{
+    height: 40px;
+    width: 77.98px;
+    border-radius: 19px;
+    border: none;
+    background-color: #eb1700;
+    box-sizing: border-box;
+color: rgb(255, 255, 255);
+cursor: pointer;
+display: block;
+font-family:norms-bold; 
+font-size: 18px;
+/* font-variant-ligatures: no-common-ligatures; */
+font-weight: 700;
+letter-spacing: -0.511333px;
+line-height: 24px;
+}
+.button .up{
+    width: 86.433px;
+    height: 40px;
+    border-radius: 19px;
+    border: none;
+    background-color: #ffffff;
+    box-sizing: border-box;
+color: rgb(73, 73, 73);
+cursor: pointer;
+display: block;
+font-family: DD-TTNorms, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+font-size: 18px;
+/* font-variant-ligatures: no-common-ligatures; */
+font-weight: 700;
+letter-spacing: -0.511333px;
+line-height: 24px,
+}
+.discover{
+    display: block;
+    /* box-sizing: border-box; */
+    /* width: 100%; */
+    text-align: center;
+
+    
+}
+
+.banner-text{
+    font-family: norms-bold;
+}
+.cover{
+    display: block;
+    height: 56px;
+    padding-top: 20px; 
+}
+.form  input {
+ height: 56px;
+ padding: 40px;
+}
+.dasher{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.scooter{
+    box-sizing: border-box;
+    display: block;
+    text-align: center;
+    
+}
+.scooter h2{
+    box-sizing: border-box;
+color: rgb(25, 25, 25);
+display: block;
+font-family: TT Norms, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+font-size: 32px;
+width: 200px;
+font-weight: 700;
+letter-spacing: -0.01px;
+line-height: 40px;
+}
+.scooter span{
+    width: 250px;
+    display: block;
+    box-sizing: border-box;
+color: rgb(25, 25, 25);
+display: block;
+font-family: TT Norms, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+font-size: 16px;
+font-variant-ligatures: no-common-ligatures;
+font-weight: 550;
+letter-spacing: -0.01px;
+line-height: 24px;
+text-align: center;
+}
+.scooter h3{
+    box-sizing: border-box;
+color: rgb(235, 23, 0);
+cursor: pointer;
+display: block;
+font-family: TT Norms, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+font-size: 18px;
+font-variant-ligatures: normal;
+font-weight: 700;
+letter-spacing: -0.01px;
+}
+.house {
+    display: block;
+    text-align: center;
+}
+.house h2{
+    box-sizing: border-box;
+color: rgb(25, 25, 25);
+display: block;
+font-family: TT Norms, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+font-size: 32px;
+font-variant-ligatures: no-common-ligatures;
+font-weight: 700;
+letter-spacing: -0.01px;
+line-height: 40px;
+width: 200px;
+}
+.house span{
+    width: 200px;
+    display: block;
+}
+.mobile{
+    display: block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+.mobile h2{
+   box-sizing: border-box;
+color: rgb(25, 25, 25);
+display: block;
+font-family: TT Norms, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+font-size: 32px;
+font-variant-ligatures: no-common-ligatures;
+font-weight: 700;
+letter-spacing: -0.01px;
+line-height: 40px; 
+width: 200px;
+}
+.mobile span{
+width: 200px;
+display: block;
+}
+.mobile h3{
+
+}
+.type img{
+    height: 154px;
+    width: 154px;
+    box-sizing: border-box;
+}
+.start{
+    display: flex;
+    width: 100%;
+    
+}
+.start img{
+    
+}
+.crave{
+    /* width: 70%; */
+    display: flex;
+    /* border: 2px solid black; */
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+    
+}
+.crave-img{
+    margin-left: 78px;
+}
+.writing{
+    display: block;
+    /* width: 40%; */
+    margin-left: 20px;
+}
+.crave-img img{
+    width: 695.033px;
+    height: 500px;
+}
+.writing h2{
+    box-sizing: border-box;
+color: rgb(25, 25, 25);
+display: block;
+font-family: TT Norms, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+font-size: 40px;
+font-variant-ligatures: no-common-ligatures;
+font-weight: 700;
+letter-spacing: -0.01px;
+line-height: 40px;
+width: 350px;
+}
+.writing span{
+    box-sizing: border-box;
+color: rgb(25, 25, 25);
+display: block;
+font-family: TT Norms, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+font-size: 20px;
+font-variant-ligatures: no-common-ligatures;
+font-weight: 700;
+letter-spacing: -0.01px;
+line-height: 24px;
+width: 100%;
+}
+.writing p{
+    box-sizing: border-box;
+color: rgb(25, 25, 25);
+display: block;
+font-family: norms-regular;
+font-size: 16px;
+font-variant-ligatures: no-common-ligatures;
+font-weight: 500;
+letter-spacing: -0.01px;
+line-height: 22px;
+width: 360px;
+}
+.writing button{
+    width: 145.9px;
+    height: 40px;
+    border-radius: 22px;
+    box-sizing: border-box;
+color: rgb(255, 255, 255);
+cursor: pointer;
+display: block;
+font-family: norms-medium;
+font-size: 15px;
+font-variant-ligatures: no-common-ligatures;
+font-weight: 700;
+letter-spacing: -0.01px;
+line-height: 22px;
+background-color: #eb1700;
+border: none;
+}
+.full-pink{
+    width: 100%;
+    height: 605px;
+    background-color: #fef1ee;
+    padding-top: 8px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+.less{
+    display: block;
+    
+}
+.less img{
+    height: 500px;
+    width: 724px;
+    margin-top: 74px;
+}
+.words{
+    display: block;
+    box-sizing: border-box;
+    margin-left: 60px;
+    /* transform: translateY(148px); */
+    margin-top: 217px;
+    /* justify-content: ; */
+    
+}
+.words h2{
+box-sizing: border-box;
+color: rgb(25, 25, 25);
+display: block;
+font-family: norms-bold;
+font-size: 40px;
+font-variant-ligatures: no-common-ligatures;
+font-weight: 700;
+letter-spacing: -0.01px;
+line-height: 40px;
+width: 300px;
+margin-bottom: 20px;
+
+}
+.words span{
+box-sizing: border-box;
+color: rgb(25, 25, 25);
+display: block;
+font-family: norms-medium;
+font-size: 16px;
+font-variant-ligatures: no-common-ligatures;
+font-weight: 500;
+letter-spacing: -0.01px;
+line-height: 22px;
+width: 400px;
+margin-bottom: 27px;
+}
+.words button{
+    height: 40px;
+    width: 126.960px;
+    border: none;
+    background-color: #eb1700;
+    color: #ffffff;
+    box-sizing: border-box;
+color: rgb(255, 255, 255);
+cursor: pointer;
+display: block;
+font-family: norms-medium;
+font-size: 16px;
+font-variant-ligatures: no-common-ligatures;
+font-weight: 700;
+letter-spacing: -0.01px;
+line-height: 22px;
+border-radius: 20px;
+}
+.cover-img{
+    
+    width: 100%;
+    background-image: url("https://img.cdn4dd.com/cdn-cgi/image/fit=cover,format=auto,quality=60/https://cdn.doordash.com/managed/consumer/seo/home/landing_cta/grocery_desktop.png");
+    height: 600px;
+      background-size: cover; 
+      background-repeat: no-repeat;
+      background-position: center;
+      /* border: 1px solid #000;  */
+      /* object-fit: contain; */
+}
+
+.grocery{
+    display: block;
+    box-sizing: border-box;
+    justify-content: center;
+    /* text-align: center; */
+    
+    
+}
+.grocery h2{
+    display: block;
+filter: drop-shadow(rgba(0, 0, 0, 0.2) 0px 2px 8px);
+font-family: norms-bold;
+font-size: 40px;
+font-variant-ligatures: no-common-ligatures;
+font-weight: 700;
+letter-spacing: -0.01px;
+line-height: 40px;
+width: 350px;
+text-align: center;
+color: #ffffff;
+
+}
+.grocery span{
+    box-sizing: border-box;
+color: rgb(255, 255, 255);
+display: block;
+filter: norms-bold;
+font-size: 20px;
+font-variant-ligatures: no-common-ligatures;
+font-weight: 700;
+letter-spacing: -0.01px;
+line-height: 24px;
+}
+.grocery p{
+box-sizing: border-box;
+color: rgb(255, 255, 255);
+display: block;
+filter: norms-medium;
+font-size: 16px;
+font-variant-ligatures: no-common-ligatures;
+font-weight: 500;
+letter-spacing: -0.01px;
+line-height: 22px;
+width: 500px;
+text-align: center;
+}
+.grocery button{
+height: 40px;
+width: 138.067px;
+box-sizing: border-box;
+color: rgb(255, 255, 255);
+cursor: pointer;
+display: block;
+font-family: norms-medium;
+font-size: 16px;
+font-variant-ligatures: no-common-ligatures;
+font-weight: 700;
+letter-spacing: -0.01px;
+line-height: 22px;
+background-color: #eb1700;
+border: none;
+border-radius: 16px;
+text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
